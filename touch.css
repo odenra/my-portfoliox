@@ -10,7 +10,7 @@ body {
     overflow-x: hidden;
 }
 
-.main-widht {
+.main {
     width: 1280px;
     max-width: 95%;
     margin: 0 auto;
@@ -24,6 +24,20 @@ body {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/abstract-uv-ultraviolet-light-composition.jpg);
     background-size: cover;
     background-position: center;
+}
+
+.logo {
+    height: 55px;
+    width: 55px;
+    background: transparent;
+    border: 2px solid #0f8abb;
+    color: #0f8abb;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    cursor: pointer;
 }
 
 header {
@@ -92,73 +106,38 @@ nav .nav-list li.btn:hover a {
     transition: .3s;
 }
 
-.container {
-    padding-top: 190px;
-    display: grid;
-    grid-template-columns: 1fr;
+
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
 }
 
-.container .hero-text {
-    margin-bottom: 40px;
-}
-
-.container .hero-text h1 {
-    font-size: 47px;
-    font-weight: 900;
-    line-height: 1.2;
-    margin: 20px 0 20px;
-    color: #b31147;
-}
-span{
-    color: #0f8abb;
-}
-#span2 {
-    color: #0f8abb;
-    font-size: x-large;
-}
-  #span2:hover{
-    letter-spacing: 3px;
-}
-
-.container .hero-text p {
-    width: 440px;
-    max-width: 100%;
-    color: #eee;
-    font-size: 15px;
-    line-height: 1.5;
-    margin-bottom: 30px;
-}
-
-.social a {
-    width: 37px;
-    height: 37px;
-    border-radius: 50%;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 20px;
-    color: #eee;
+input[type=submit] input [type=reset] {
+    background-color: #df2b67;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
     cursor: pointer;
-    margin-top: 100px;
-    margin-right: 22px;
-    background-color: rgba(255, 255, 255, 0.1);
-    margin-bottom: 35px;
 }
 
-.container .hero-text button {
-    color: #eee;
-    background: #db2e68;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 24px;
-    padding: 8px 30px;
-    border: 1px solid #0f8abb;
-    border-radius: 40px;
+input[type=submit]:hover {
+    background-color: #000000;
+    cursor: pointer;
+    color: #df2b67;
 }
 
-.container .hero-text button:hover {
-    color: #f7f5f5;
-    background: #0f8abb;
-    border: 1px solid #b31147;
+.container {
+    border-radius: 5px;
+    background-color: rgba(71, 177, 226, 0.9);
+    padding: 20px;
 }
-
